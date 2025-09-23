@@ -1,6 +1,6 @@
 ---
 - name: Add VLAN to device (s)
-  hosts: leaf1
+  hosts: leafs
   tasks:
     - name: Add VLAN 10
       arista.eos.eos_vlans:
